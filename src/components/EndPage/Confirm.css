@@ -1,0 +1,44 @@
+.confirm{
+    width: 454px;
+  height: 478px;
+  border: 1px solid red;
+  position: absolute;
+  top: 57px;
+  left: 973px;
+  background-color: white;
+  display: none;
+}
+.rounded{
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    background: linear-gradient(163.95deg, #6348FE 4.74%, #610595 88.83%);
+    border-radius: 50%;
+    margin-top: 70px;
+
+}
+h1{
+    margin-inline: 123px;
+  margin-top: 30px;
+  font-size: 32px;
+  font-weight: inherit;
+}
+h2{
+margin-top: 30px;
+margin-inline: 66px;
+ color: gray;
+}
+.continue{
+width: 381px;
+height: 53px;
+background: rgba(33, 9, 47, 1);
+color: white;
+margin-inline: 29px;
+margin-top: 41px;
+font-size: 21px;
+cursor: pointer;
+}
+img{
+    margin-inline: 24px;
+    margin-top: 30px;
+}

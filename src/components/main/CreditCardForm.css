@@ -1,0 +1,143 @@
+.container {
+    display: flex;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.credit-card {
+    width: 400px;
+    height: 250px;
+    perspective: 1000px;
+}
+
+
+
+.card-front {
+    width: 483px;
+    height: 900px;
+    position: absolute;
+    color: white;
+}
+
+
+
+.card-info-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.card-info-item label {
+    font-weight: bold;
+}
+
+.credit-card-form {
+  width: 381px;
+  height: 352px;
+  margin-top: 152px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 1000px;
+}
+
+.credit-card-form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.credit-card-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background: rgba(33, 9, 47, 1);
+    
+
+}
+
+.credit-card-form button:hover {
+    background-color: #0056b3;
+}
+.cvv{
+    margin-top: 69px;
+}
+.card-img{
+    position: absolute;
+  top: 486px;
+  right: -146px;
+}
+.backcard-img{
+    position: absolute;
+  top: 194px;
+  right: -215px;
+  width: 444px;
+  border-radius: 15px;
+}
+.card-number{
+  position: absolute;
+  top: 371px;
+  left: 185px;
+  z-index: 1000;
+  width: 66%;
+  font-size: 32px;
+}
+.card-holder{
+ position: absolute;
+  top: 433px;
+  left: 185px;
+  z-index: 1000;
+  width: 54%;
+  font-size: 16px;
+}
+.expires{
+    position: absolute;
+  top: 433px;
+  left: 482px;
+  z-index: 1000;
+  width: 27%;
+  font-size: 18px;
+
+}
+.cv{
+    position: absolute;
+  top: 619px;
+  left: 381px;
+  z-index: 1000;
+  width: 27%;
+  font-size: 27px;
+}
+.expires-text{
+    position: absolute;
+  left: 993px;
+  top: 142px;
+  color: black;
+  width: 147px;
+}
+.card-text{
+    position: absolute;
+  left: 993px;
+  top: 211px;
+  color: black;
+  width: 147px;
+}
+.cvv-text{
+    position: absolute;
+  left: 993px;
+  top: 343px;
+  color: black;
+  width: 147px;
+}
+.mmyy{
+    position: absolute;
+    left: 993px;
+    top: 277px;
+    color: black;
+    width: 147px;
+}
